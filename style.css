@@ -1,0 +1,40 @@
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+    float: left;
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+.card.flipped {
+    background-color: #614b85;
+   rgb(85, 52, 139)rgb(97, 67, 146)
+}
+
+
+
+
+
+#divMaior {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.card .card-content {
+    visibility: hidden; /* Oculta o conteúdo da carta por padrão */
+}
+
+.card.flipped .card-content {
+    visibility: visible; /* Exibe o conteúdo da carta quando virada */
+}
+
+#divMaior {
+    width: 500px;
+    margin: 50px auto;
+}
